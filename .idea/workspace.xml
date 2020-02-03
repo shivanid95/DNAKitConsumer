@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce46eb60-c022-408f-b83e-f907e7f250b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Data/ChartData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Data/ChartDataResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Data/PlotPoint.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Extensions/BidirectionalCollection+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Extensions/ChartPointsPinchHighlightLayer.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Extensions/DateFormatter+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Model/ChartsAPI.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Model/GraphModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Supporting FIles/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/Supporting FIles/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/View/ChartInteractiveRangeAxis.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/View/ChartRangedAxisLayerDefault.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/View/GraphViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/View/SwiftChartsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/ChartPOC/ChartPOC/ViewModel/ChartViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Account/Coordinator/AccountCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Account/Model/AccountModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Account/View/AccountViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Account/ViewModel/AccountViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Data/TTFeature.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Data/Trial.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/excellent.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/excellent.imageset/excellent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/excellent.imageset/excellent@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/excellent.imageset/excellent@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/happy.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/happy.imageset/happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/happy.imageset/happy@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/happy.imageset/happy@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/sad.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/sad.imageset/sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/sad.imageset/sad@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/Assets.xcassets/sad.imageset/sad@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/Images/TTImages+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/PlanEndFeedbackModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Helper/TempViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Invoice/InvoiceViewModel/InvoiceViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Invoice/View/InvoiceTVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Invoice/View/InvoiceView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/PlanEndFeedback/View/PlanEndFeedbackView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/PlanEndFeedback/View/PlanEndFeedbackViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/PlanEndFeedback/View/PlanFeedbackCVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/Coordinator/PricingCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/Model/PricingModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/Model/PricingPlanCellData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/PricingViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/ViewModel/PricingViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/Model/CompareFeatureModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/View/CompareFeatureFooterView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/View/CompareFeatureHeaderView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/View/CompareFeatureModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/View/CompareFeatureTVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/View/CompareFeatureView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Compare Feature/ViewModel/CompareFeatureViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/FAQ/FAQModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/FAQ/FAQTVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/FAQ/FAQVIew.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/FAQ/PricingFAQFooterView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/New Group1/Model/PricingReviewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/PricingPlan/View/PricingPlanFooterView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/PricingPlan/ViewModel/PricingPlanViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/PricingReview/PricingUserReviewComponent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Pro Details/VIew/ProPricingDetailsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Pro Details/VIew/TrialInvoiceDetailsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/Pro Details/ViewModel/PremiumPricingDetailsViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/TryProBAnner/Model/TryProBannerModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/TryProBAnner/View/IconTextTVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/TryProBAnner/View/ProPricingBannerView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Pricing/modules/TryProBAnner/ViewModel/ProPricingBannerViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Settings/Coordinator/SettingsCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Settings/Model/SettingsModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Settings/View/SettingsReusableComponent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Settings/View/SettingsViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/Settings/ViewModel/SettingsViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/StateSearch/Model/StateModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/StateSearch/New Group/StateSearchCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/StateSearch/VIewModel/StateSearchViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTAccount/TTAccount/StateSearch/View/StateSearchView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTAttributedString.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTCircleIconView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTContentSizedTableView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTFont.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTImageVIew.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTLabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTTappableImage.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTTappableLabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTTextButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTTextField.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Atoms/TTTooltip.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/FAQCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/MMIChangeCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/MMIDescriptorCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/MMIUserReviewCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/MMIZoneDescriptionCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/MarkettingHeaderView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/PopupHeaderView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/TTExpandCollapseView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Cards/TTLearnMoreCard.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Controllers/TTImageViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Controllers/TTWebViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/CAGradientLayer+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/CALayer+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/CGRect+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/String+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIButton+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIColor+Extension.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIFont+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIImage+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIImageView+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UILabel+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIStackView+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIView+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIView+layout.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Extensions/UIView+stack.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-Bold-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-Light-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-Medium-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-MediumItalic-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-Regular-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-RegularItalic-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Fonts/Graphik-Semibold-App.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/AnchoredConstraints.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/Color.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/Constants.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/ExtensibleByAssociatedObjects.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/Protocols.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/TTLog.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/TTShadowType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/Typography.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Helper/Utility.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/broker-ratings.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/broker-ratings.imageset/broker-ratings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/broker-ratings.imageset/broker-ratings@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/broker-ratings.imageset/broker-ratings@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/future-estimates.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/future-estimates.imageset/future-estimates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/future-estimates.imageset/future-estimates@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/future-estimates.imageset/future-estimates@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/mmiIcon.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/mmiIcon.imageset/mmiIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/mmiIcon.imageset/mmiIcon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/mmiIcon.imageset/mmiIcon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/neutral-comment.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/neutral-comment.imageset/neutral-comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/neutral-comment.imageset/neutral-comment@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/neutral-comment.imageset/neutral-comment@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/premium-only.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/premium-only.imageset/premium-only.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/premium-only.imageset/premium-only@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/premium-only.imageset/premium-only@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/sector-comparables.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/sector-comparables.imageset/sector-comparables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/sector-comparables.imageset/sector-comparables@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/sector-comparables.imageset/sector-comparables@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/technical-indicators.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/technical-indicators.imageset/technical-indicators.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/technical-indicators.imageset/technical-indicators@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/technical-indicators.imageset/technical-indicators@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tick-with-circle.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tick-with-circle.imageset/tick-with-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tick-with-circle.imageset/tick-with-circle@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tick-with-circle.imageset/tick-with-circle@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tickertape-special.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tickertape-special.imageset/tickertape-special.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tickertape-special.imageset/tickertape-special@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/Images.xcassets 15-36-43-919.xcassets/tickertape-special.imageset/tickertape-special@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Images/TTImages.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/NavBar/ProductMenuView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/NavBar/ProductSwitcherIcon.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/NavBar/TTNavbar.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/TabBar/TTTabBar.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/TabBar/TabBarItem.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Navigation/TabBar/TabType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PopoverPresentation/SlideInPresentationAnimator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PopoverPresentation/SlideInPresentationController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PopoverPresentation/SlidePresentationManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Model/PremiumFeatureModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Model/PremiumPopupType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/FeatureLogoView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/PremiumFeatureDetail.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/PremiumFeaturePopupCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/PremiumPlansView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/PremiumPopup.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/PremiumPopup/Views/PremiumPopupBannerView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Protocols/Loadable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/Protocols/Tappable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponent/TTComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponentTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTComponent/TTComponentTests/TTComponentTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Brands/BrandsCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Brands/CompanyProfileVIew.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Checklist/ChecklistComponent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Checklist/InvestmentChecklistCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Forecast/CheckRatingsResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Forecast/ForecastStatisticComponent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Forecast/ForecastView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Header/StockInfoHeader.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Header/StockLabelCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/Header/StockReturnsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/KeyRatios/KeyRatiosCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/KeyRatios/KeyRatiosView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Components/News/StockNewsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Coordinator/StockOverviewCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Events/EventsCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Events/EventsView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Model/EventType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/Model/InvestmentChecklistConsumable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/New Group/Peers/StockPeersView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/New Group1/StockOverviewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/View/StockOverviewViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Overview/ViewModel/StockOverviewViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Communication services.imageset/Communication services.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Communication services.imageset/Communication services@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Communication services.imageset/Communication services@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Communication services.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer discretionary.imageset/Consumer discretionary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer discretionary.imageset/Consumer discretionary@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer discretionary.imageset/Consumer discretionary@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer discretionary.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer staples.imageset/Consumer staples.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer staples.imageset/Consumer staples@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer staples.imageset/Consumer staples@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Consumer staples.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/ETF.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/ETF.imageset/ETF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/ETF.imageset/ETF@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/ETF.imageset/ETF@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Energy.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Energy.imageset/Energy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Energy.imageset/Energy@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Energy.imageset/Energy@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Financials.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Financials.imageset/Financials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Financials.imageset/Financials@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Financials.imageset/Financials@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Healthcare.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Healthcare.imageset/Healthcare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Healthcare.imageset/Healthcare@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Healthcare.imageset/Healthcare@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/High risk.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/High risk.imageset/High risk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/High risk.imageset/High risk@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/High risk.imageset/High risk@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Industrials.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Industrials.imageset/Industrials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Industrials.imageset/Industrials@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Industrials.imageset/Industrials@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Informatipn technology.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Informatipn technology.imageset/Informatipn technology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Informatipn technology.imageset/Informatipn technology@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Informatipn technology.imageset/Informatipn technology@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Low risk.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Low risk.imageset/Low risk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Low risk.imageset/Low risk@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Low risk.imageset/Low risk@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- large.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- large.imageset/Market cap- large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- large.imageset/Market cap- large@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- large.imageset/Market cap- large@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- mid.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- mid.imageset/Market cap- mid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- mid.imageset/Market cap- mid@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- mid.imageset/Market cap- mid@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- small.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- small.imageset/Market cap- small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- small.imageset/Market cap- small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Market cap- small.imageset/Market cap- small@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Materials.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Materials.imageset/Materials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Materials.imageset/Materials@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Materials.imageset/Materials@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Moderate risk.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Moderate risk.imageset/Moderate risk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Moderate risk.imageset/Moderate risk@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Moderate risk.imageset/Moderate risk@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Real estate.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Real estate.imageset/Real estate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Real estate.imageset/Real estate@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Real estate.imageset/Real estate@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Utilites.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Utilites.imageset/Utilites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Utilites.imageset/Utilites@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/Utilites.imageset/Utilites@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/announcement-with-circle.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/announcement-with-circle.imageset/announcement-with-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/announcement-with-circle.imageset/announcement-with-circle@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/announcement-with-circle.imageset/announcement-with-circle@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/dividend.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/dividend.imageset/dividend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/dividend.imageset/dividend@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/dividend.imageset/dividend@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/earnings.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/earnings.imageset/earnings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/earnings.imageset/earnings@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/Assets.xcassets/earnings.imageset/earnings@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/StockConstants.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TTStockPages/TTStockPages/Supporting Files/TTImages+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Products/Learn/ScreenerCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Search/SearchCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Supporting Files/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Supporting Files/Assets.xcassets/tickertape.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Supporting Files/Assets.xcassets/tickertape.imageset/tickertape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Supporting Files/Assets.xcassets/tickertape.imageset/tickertape@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Supporting Files/Assets.xcassets/tickertape.imageset/tickertape@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tickertape/TickertapeMain/TickertapeMain/Tabbar/ProductSwitcherCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Data/IntraDayPoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Data/Point.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Supporting FIles/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Supporting FIles/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Supporting FIles/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/Supporting FIles/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOC/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOCUITests/ChartsPOCUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChartsPOC/ChartsPOCUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTester/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTesterTests/ComponentTesterTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTesterTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTesterUITests/ComponentTesterUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ComponentTester/ComponentTesterUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/Assets/DNAKit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Buttons/DNABaseButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Buttons/DNATextButton.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Inputs/DNATextField.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Inputs/DNATextView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Label/DNAExpandableLabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Label/DNAInfoLabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Label/DNALabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/Label/DNANumericLabel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Atoms/View/DNAStateView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNAAlertType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNAButtonHeight.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNAButtonState.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNAButtonType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNANumberType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/DNAViewState.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/TextValidationRules.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Enums/TextValidationType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Error/ValidationError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/Foundation Classes/String+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/New Group/UIColor+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIAlertController+Extension.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIButton+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIEdgeInset+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIFont+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIImage+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UITextField+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UITextView+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIView+layout.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIView+stack.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Extensions/UI Classes/UIView+utility.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Foundation/DNAAttributedString.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Foundation/DNAFont.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Foundation/DNAImage.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Foundation/Typography.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Helpers/AnchoredConstraints.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Helpers/ExtensibleByAssociatedObjects.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Molecules/DNAAlert.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Molecules/DNATooltip.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/New Group/ColorScheme.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/AlertPresentable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/Delegates/DNAButtonDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/Evaluatable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/Loadable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/Tappable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/DNAKit/Protocols/Validitable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DNAKit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer.xcodeproj/xcuserdata/smallcase.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/New Group/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Primary/Coordinator/PrimaryCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Primary/View/PrimaryViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Supporting Files/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Supporting Files/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Supporting Files/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Supporting Files/Coordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumer/Supporting Files/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumerUITests/DNAKitConsumerUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAKitConsumerUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTest/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTestUITests/FInalTestUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FInalTest/FInalTestUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/GetAuthTokenResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/NetworkManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/New Group/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/New Group/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/SupportingFiles/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/SupportingFiles/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayDummyConsumer/GatewayDummyConsumer/SupportingFiles/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/Landmarks/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/LandmarksTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/LandmarksTests/LandmarksTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/LandmarksUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Landmarks/LandmarksUITests/LandmarksUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/Lunch/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/LunchTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/LunchTests/LunchTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/LunchUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lunch/LunchUITests/LunchUITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPlayground.playground/Contents.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPlayground.playground/contents.xcplayground" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCCore/POCCore.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCCore/POCCore/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCCore/POCCore/POCCore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCCore/POCCoreTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCCore/POCCoreTests/POCCoreTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCLogin/POCLogin.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCLogin/POCLogin/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCLogin/POCLogin/POCLogin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCLogin/POCLoginTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCLogin/POCLoginTests/POCLoginTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCMMI/POCMMI.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCMMI/POCMMI/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCMMI/POCMMI/POCMMI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCMMI/POCMMITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POCMMI/POCMMITests/POCMMITests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway.xcodeproj/project.xcworkspace/xcuserdata/smallcase.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway.xcodeproj/xcuserdata/smallcase.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/Coordinator/BrokerSelectCoordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/New Group1/BrokerCollectionViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/New Group1/BrokerSelectFooterView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/New Group1/BrokerSelectHeaderView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/New Group1/New Group/GatewayLoadingView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/New Group1/ViewStates/BrokerConnectedView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/BrokerSelect/ViewModel/BrokerSelectViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Core Logic/SCGateway+Utilty.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Core Logic/SCGateway.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/Broker/BrokerConfig.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/GatewayCopyConfigResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/GatewayData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/InitSessionResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/New Group/Broker.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/RedirectURLParamsResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/SmallcaseDetails.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/Transaction/MarkErroredResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/Transaction/Transaction.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/Transaction/TransactionErrorData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Data/UserData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Enums/BrokerConfigType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Enums/Config.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Enums/TransactionIntentType.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Enums/UserStatus.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Enums/ViewState.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/String+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/UIImage+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/UIImageView+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/UIView+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/UIView+constraints.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/UIViewController+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/URLComponents+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Extensions/URLRequest+ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/AnchoredConstraints.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Color.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Coordinator.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Error/SCGatewayError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Error/smallcase-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Gif/smallcase-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Images.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Helpers/SCGateway.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Enums/Environment.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Enums/HTTPMethod.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Enums/NetworkError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Enums/ParameterEncoding.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Enums/Task.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Protocols/ProviderProtocol.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Protocols/ServiceProtocol.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Protocols/URLSessionProtocol .swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Provider/URLSessionProvider.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Networking/Service/GatewayService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/New Group1/Model/BrokerSelectModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Protocols/AuthenticationSessionProtocol.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Protocols/GatewayConfig.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SCGateway/SCGateway/Protocols/SCGatewayProtocol.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Create/Model/Transaction.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/AuthTokenResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Constituent.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/CreateTransactionBody.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/CreateTransactionResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/ExitedSmallcaseResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Investments/AllInvestmentsResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Investments/InvestedActions.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Investments/Investment.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Investments/InvestmentReturns.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/News.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/Smallcase.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Data/SmallcaseResponse.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Helpers/LoadingOverlay.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Helpers/NetworkManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Helpers/UIImageVIew+Ext.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Historical/HistoricalViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Investments/InvestmentsListViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/News/NewsTableViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/News/NewsTableViewCell.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase List/View/SmallcaseListHeaderView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase List/View/SmallcaseListViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase List/View/SmallcaseTableViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase List/View/SmallcaseTableViewCell.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase Profile/ConstiuentsHeaderVIew.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase Profile/ConstiuentsHeaderView.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase Profile/SmallcaseConstituentsTVCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase Profile/SmallcaseConstituentsTVCell.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebViewTester/WebViewTester/Smallcase Profile/SmallcaseProfileViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/Amazon-increase-income.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/blog/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/content/portfolio/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/data/homepage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/data/portfolio.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/_default/baseof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/_default/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/layouts/portfolio/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/about/shivani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/about/signature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/backgrounds/bg-dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/backgrounds/education-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/backgrounds/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/backgrounds/team-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/blog/post-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/clients-logo/client-logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/clients-logo/client-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/clients-logo/client-logo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/clients-logo/client-logo-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/clients-logo/client-logo-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/experience/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/experience/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/experience/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/icons/design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/icons/plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-cyan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-group-cyan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-group-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-group-sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-group-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/dots-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-bg-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-cyan-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-cyan-lg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-cyan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-pink-round.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-pink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/leaf-yellow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/page-title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/illustrations/page-title.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/logoIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/portfolio/item-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/progress-wave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/team/member-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/team/member-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/team/member-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/testimonial/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/user-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/user-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio-website/static/images/user-3.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Wk2YxsscmCa68Dm5DBKA67VUbw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce46eb60-c022-408f-b83e-f907e7f250b8" name="Default Changelist" comment="" />
+      <created>1579679324077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579679324077</updated>
+      <workItem from="1579679326657" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
